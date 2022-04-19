@@ -1,2 +1,5 @@
 /Exoplanets
 /.ipynb_checkpoints/
+/plots/
+*.csv
+/conv_model/
