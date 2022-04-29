@@ -2,4 +2,4 @@
 /.ipynb_checkpoints/
 /plots/
 *.csv
-/conv_model/
+/conv_model*
