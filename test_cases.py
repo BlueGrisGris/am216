@@ -42,4 +42,21 @@ plt.plot(linear_test, sin_high_test)
 plt.show()
 
 
+#|%%--%%| <Sm7hxnGAJH|f5KxbYtoKo>
+"""°°°
+### 2D Case
+°°°"""
+#|%%--%%| <f5KxbYtoKo|jHxyr4XvfN>
 
+xx,yy= np.meshgrid(linear_test, linear_test)
+plane_test = xx+yy
+plane_test.shape
+plt.imshow(plane_test)
+plt.show()
+
+#|%%--%%| <jHxyr4XvfN|w63WnFmNoh>
+
+hill_test = np.sin(yy*np.pi)*np.cos(xx*np.pi)
+hill_test
+plt.imshow(hill_test)
+plt.show()

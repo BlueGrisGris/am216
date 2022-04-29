@@ -4,3 +4,4 @@
 *.csv
 */conv_model*
 .jukit
+*.sw*
