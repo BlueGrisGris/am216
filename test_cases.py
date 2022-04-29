@@ -60,3 +60,7 @@ hill_test = np.sin(yy*np.pi)*np.cos(xx*np.pi)
 hill_test
 plt.imshow(hill_test)
 plt.show()
+#|%%--%%| <w63WnFmNoh|vX2fuoQ699>
+
+
+
