@@ -32,7 +32,7 @@ step_test[41:60] = 0.5
 #|%%--%%| <E04g3KfLfC|a0ykRqVkiG>
 ### sin low freq speed function
 sin_low_test = np.sin(linear_test*np.pi)
-plt.plot(linear_test, sin_test)
+plt.plot(linear_test, sin_low_test)
 plt.show()
 
 #|%%--%%| <a0ykRqVkiG|Sm7hxnGAJH>
@@ -47,7 +47,7 @@ plt.show()
 ### 2D Case
 °°°"""
 #|%%--%%| <f5KxbYtoKo|jHxyr4XvfN>
-
+##plane test
 xx,yy= np.meshgrid(linear_test, linear_test)
 plane_test = xx+yy
 plane_test.shape
@@ -55,12 +55,15 @@ plt.imshow(plane_test)
 plt.show()
 
 #|%%--%%| <jHxyr4XvfN|w63WnFmNoh>
-
+### hill test
 hill_test = np.sin(yy*np.pi)*np.cos(xx*np.pi)
 hill_test
 plt.imshow(hill_test)
 plt.show()
 #|%%--%%| <w63WnFmNoh|vX2fuoQ699>
 
-
+stripes_test = np.exp(yy*np.sin(xx*10*np.pi))
+stripes_test
+plt.imshow(stripes_test)
+plt.show()
 
